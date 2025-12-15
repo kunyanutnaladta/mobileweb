@@ -1,5 +1,5 @@
 import { StudentManager } from "./managers/StudentManager.js";
-import { showList } from "./utils/showList.js";
+import { showList } from "./utils/ShowList.js";
 const manager = new StudentManager();
 manager.loadFromLocalStorage();
 function renderTable(students = manager.getAllStudents(), elementId = "studentTableBody") {
