@@ -1,6 +1,6 @@
 import { Student } from "./models/Student.js";
 import { StudentManager } from "./managers/StudentManager.js";
-import { showList } from "./utils/ShowList.js";
+import { showList } from "./utils/showList.js";
 
 const manager = new StudentManager();
 manager.loadFromLocalStorage();
