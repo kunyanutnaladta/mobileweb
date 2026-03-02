@@ -21,3 +21,9 @@ logs/
 .capacitor/
 .vite/
 *.local
+node_modules/
+.ignored_node_modules/
+dist/
+build/
+android/
+ios/
